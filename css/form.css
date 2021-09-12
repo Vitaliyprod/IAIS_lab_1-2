@@ -1,0 +1,143 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 166px;
+}
+form{
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    width: 68%;
+    height: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+form~p{
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+form~input, .button {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px 0;
+    opacity: 0.85;
+    font-size: 17px;
+}
+input:hover,
+.button:hover {
+    opacity: 1;
+}
+.facebook {
+    background: url("../images/facebook.svg") no-repeat 4px 50%;
+    background-size: 30px 30px;
+    background-color: #3A5BA0;
+    color: white;
+}
+.twitter {
+    background: url("../images/twitter.svg") no-repeat 4px 50%;
+    background-size: 30px 30px;
+    background-color: #1CB7EB;
+    color: white;
+}
+input[type=submit] {
+    background-color: rgba(86, 123, 8, 0.50);
+    color: gray(80);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    display: block;
+}
+
+input[type="text"], input[type="email"]{
+    padding-left: 40px;
+    font-size: 18px;
+    border: #4c4c4c solid 2px;
+    border-radius: 15px;
+}
+a.form{
+    margin: 5px;
+    padding: 2px 7px;
+}
+form~a:active{
+    color: #e62e00;
+}
+hr{
+    border: 2px solid #ddd;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+input[name="email"]{
+    background: url("../images/email.svg") no-repeat 4px 50%;
+    background-size: 25px 25px;
+}
+input[name="username"]{
+    background: url("../images/user.svg") no-repeat 4px 50%;
+    background-size: 25px 25px;
+}
+input[name="comment"]{
+    background: url("../images/comment.svg") no-repeat 4px 50%;
+    background-size: 25px 25px;
+}
+input[name="username"], input[name="email"]{
+    height: 35px;
+    margin: 5px;
+    width: 95%;
+}
+input[name="comment"]{
+    height: 150px;
+    margin: 5px;
+    width: 95%;
+}
+input[type="submit"]{
+    margin: 5px;
+    height: 14%;
+    width: 48%;
+    color: black;
+    padding: 8px;
+    text-transform: uppercase;
+    text-decoration:none;
+    text-align:center;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#567B08 50%,#567B08);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 2px solid #567B08;
+}
+input[type="submit"]:hover {
+    background-position: 0 0;
+    color:#fff;
+}
+#line{
+    border-left: 5px double #ddd;
+    border-radius: 20px;
+    height: 273px;
+    margin: 3px 10px;
+}
+.col.flex{
+    display: flex;
+}
+.flex:nth-child(3){
+    align-items: flex-end;
+}
+
+
+
+

@@ -1,0 +1,95 @@
+
+
+
+
+@media screen and (max-width: 1280px){
+    main#content{
+        width: 85%;
+        margin-bottom: 89px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    input.button{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    main#content{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    input.button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #line{
+        border: 5px double #ddd;
+        border-radius: 20px;
+        height: 273px;
+        margin: 3px 10px;
+    }
+    form#form{
+        padding: 15px;
+    }
+    div.form {
+        flex-direction: column;
+    }
+    #line{
+        display: none;
+    }
+   div.col{
+       width: 100%;
+   }
+   input.button{
+       width: 95%;
+       padding: 8px;
+   }
+    div.col.flex {
+        margin: 0px -5px;
+        margin-top: 21px;
+    }
+    input[type="submit"] {
+        width: 33%;
+        padding: 5px;
+        font-size: 17px;
+    }
+    main#content{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    div.col.flex {
+        margin: 1px 0;
+    }
+    input.button{
+        font-size: 15px;
+    }
+    input[type="text"], input[type="email"] {
+        font-size: 15px;
+
+    }
+    input.inputs[type="text"], input.inputs[type="email"]{
+        font-size: 16px;
+        background-size: 20px 18px;
+    }
+    form#form{
+        width: 85%;
+    }
+    div.col.flex {
+        margin-top: 21px;
+    }
+    input.inputs[type="submit"] {
+        height: 11%;
+        width: 54%;
+        padding: 5px;
+        font-size: 17px;
+    }
+}
+
+

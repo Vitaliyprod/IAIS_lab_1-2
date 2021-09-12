@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptation.css">
+    <link rel="stylesheet" href="css/formadapt.css">
+    <link rel="stylesheet" href="fonts/alpha_echo.ttf">
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header>
+    <nav class="flex-item">
+        <img id="logo" src="images/Econews-logo-1.jpg" alt="eco">
+    </nav>
+    <div class="menu-burger">
+        <input id="menu-sw" type="checkbox"/>
+        <label class="menu-btn" for="menu-sw">
+            <span></span>
+        </label>
+        <nav class="flex-item menu menu-box">
+            <div class="menu"><a class="menu-burger-item" href="index.html">Home</a></div>
+            <div class="menu"><a class="menu-burger-item" href="#">News</a></div>
+            <div class="menu"><a class="menu-burger-item" href="services.html">Services</a></div>
+            <div class="menu"><a class="menu-burger-item" href="#">Contact</a></div>
+        </nav>
+    </div>
+</header>
+
+<main id="content">
+    <form id="form">
+        <h2><span style="color: #33312c; font-size: 20px">Log In</span> <span
+                style="color: grey; font-size: 18px">or</span> <span
+                style="color: #1a28bd; font-size: 20px">Sign Up</span></h2>
+        <hr>
+        <div class="form">
+            <div class="col">
+                <p>Login using your <span style="color: #3A5BA0; font-weight: bold">Facebook</span> or <span
+                        style="color: #1CB7EB; font-weight: bold">Twitter</span> account below</p>
+                <input class="facebook button" type="button" value="Login with Facebook">
+                <input class="twitter button" type="button" value="Login with Twitter">
+            </div>
+            <div id="line"></div>
+            <div class="col flex">
+                <input class="inputs" type="text" name="username" placeholder="Username" required>
+                <input class="inputs" type="email" name="email" placeholder="Email" required>
+                <input class="inputs" type="text" name="comment" placeholder="Your comment" required>
+                <input class="inputs" type="submit" value="Comment">
+            </div>
+        </div>
+    </form>
+</main>
+
+<footer>
+    <div class="contacts footer-element">
+        <div class="addr-cont">
+            <h4>Address</h4>
+            <p class="address">Lviv, Gorodotska street 33, 79000</p>
+        </div>
+        <div class="addr-cont">
+            <h4>Mail</h4>
+            <p class="address">econews13@gmail.com</p>
+        </div>
+        <div class="addr-cont">
+            <h4>Phone</h4>
+            <p class="address">+380-68-97-53-537</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <div class="footer-item">
+            <h1 id="footer">Follow us...</h1>
+            <img class="icon_img" src="images/facebook.svg">
+            <img class="icon_img" src="images/twitter.svg">
+            <img class="icon_img" src="images/instagram.svg">
+            <img class="icon_img" src="images/linkedin.svg">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+/*----------- HEADER -----------*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    color: #567B08;
+    text-decoration: none;
+    padding: 1px 15px;
+}
+header, footer{
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+header{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 20%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 18px;
+}
+
+img#logo{
+    height: 38px;
+    width: 193px;
+}
+
+.menu{
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 27px;
+    font-family: Roboto, cursive;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 53px;
+}
+div.menu:hover{
+    background-color: rgba(86, 123, 8, 0.45);
+    border-radius: 30px;
+}
+
+/*-----------  Main  -----------*/
+body{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    width: 66%;
+    height: 100%;
+    background-color: white;
+    line-height: 35px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+}
+main{
+    width: 100%;
+    margin: 15px 5%;
+}
+video#main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 15%;
+}
+span#qw{
+    font-size: 25px;
+    font-style: italic;
+}
+h1, h2{
+    font-weight: bold;
+    font-size: 23px;
+}
+h1{
+    padding-top: 9px;
+}
+h2{
+    font-size: 30px;
+    padding: 7px 0;
+}
+
+p{
+    font-size: 22px;
+    text-align: justify;
+}
+div.text{
+    padding: 0 15px 10px;
+}
+.flex-element{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*---------   Asides   ---------*/
+div.asides{
+    width: 31%;
+    height: 80%;
+}
+aside{
+    width: 100%;
+    background-color: white;
+    line-height: 35px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+aside img{
+    width: 100%;
+    height: 178px;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(86, 123, 8, 0.45);
+    color: #567B08;
+    font-family: Roboto, cursive;
+    font-size: 21px;
+    border-radius: 33px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+/*---------  Aside Top  ---------*/
+aside.aside-top{
+    height: 32%;
+}
+
+/*--------  Aside Bottom  -------*/
+aside.aside-bottom{
+    height: 32%;
+    margin-bottom: 0;
+}
+aside.aside-bottom div a{
+    color: red;
+}
+aside.aside-bottom div a:hover{
+    text-decoration: none;
+}
+aside.aside-bottom hr{
+    color: #4c4c4c;
+}
+aside.aside-bottom hr{
+    margin: 15px 0;
+}
+
+/*----------  Footer  ----------*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgba(86, 123, 8, 0.50);
+    margin: 0;
+    padding: 20px 0;
+}
+footer h1{
+    color: #567B08;;
+}
+div.icons img{
+    width: 35px;
+    height: 35px;
+    padding-right: 5px;
+}
+div.contacts{
+    display: flex;
+}
+div.icons{
+    text-align: center;
+}
+div.addr-cont{
+    margin-right: 20px;
+}
+div.footer-item{
+    margin: -14px;
+}
+h4{
+    text-align: center;
+    font-size: 23px;
+    color: #567B08;
+    padding-bottom: 2px;
+}
+p.address{
+    font-weight: bold;
+    font-size: 20px;
+}
+hr{
+    margin-bottom: 5px;
+    border: 1px solid #567B08;
+}
+
+div.menu-burger{
+    display: flex;
+}
+#menu-sw {
+    opacity: 0;
+}
+
+
+img.icon_img{
+    transition: transform .7s ease-in-out;
+}
+img.icon_img:hover{
+    transform: rotate(360deg) scale(1.3);
+}

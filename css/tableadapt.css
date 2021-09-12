@@ -1,0 +1,40 @@
+@media screen and (max-width: 1170px){
+    main{
+        margin-bottom: 164px;
+    }
+    table#data{
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    main{
+        margin-bottom: 93px;
+    }
+    th, td {
+        font-size: 21px;
+        padding: 21px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    table#data {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main {
+        margin-bottom: 182px;
+    }
+    th, td {
+        font-size: 17px;
+        padding: 19px;
+    }
+}
+
+@media screen and (max-width: 423px){
+    main {
+        margin-bottom: 116px;
+    }
+}
