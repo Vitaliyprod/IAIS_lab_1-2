@@ -1,4 +1,4 @@
-/*----------- HEADER -----------*/
+*----------- HEADER -----------*/
 *{
     margin:0;
     padding:0;
@@ -7,7 +7,7 @@
 a{
     color: #567B08;
     text-decoration: none;
-    padding: 1px 15px;
+    padding: 2px 15px;
 }
 header, footer{
     flex-basis: 100%;
